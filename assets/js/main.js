@@ -14,11 +14,11 @@
   };
 
   /**
-   * Testimonials slider
+   * product slider
    */
   new Swiper(".product-slider", {
     speed: 600,
-    loop: true,
+    loop: false,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
@@ -38,6 +38,24 @@
       1200: {
         slidesPerView: 4,
       },
+    },
+  });
+
+  /**
+   * Testimonials slider
+   */
+  new Swiper(".testimonials-slider", {
+    speed: 600,
+    loop: false,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true,
     },
   });
 
@@ -216,4 +234,40 @@
       },
     });
   }
+
+  /**
+   * Clients Slider
+   */
+  new Swiper(".clients-slider", {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    autoplay: false,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 3,
+        spaceBetween: 10,
+      },
+      480: {
+        slidesPerView: 4,
+        spaceBetween: 10,
+      },
+      640: {
+        slidesPerView: 6,
+        spaceBetween: 10,
+      },
+      992: {
+        slidesPerView: 7,
+        spaceBetween: 10,
+      },
+    },
+  });
 })();
