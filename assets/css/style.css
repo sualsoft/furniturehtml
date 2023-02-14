@@ -1585,6 +1585,19 @@ section {
     opacity: 0;
   }
 }
+
+.partners hr {
+  border-bottom: var(--primary-color) 2px solid;
+}
+.partners a {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 12px 14px;
+  border-radius: 4px;
+}
+.partners a:hover {
+  background-color: var(--secondary-color-less);
+}
 /*--------------------------------------------------------------
 # Form sections
 --------------------------------------------------------------*/
