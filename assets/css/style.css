@@ -1849,6 +1849,75 @@ input[type="password"] {
 .modal .btn {
   display: flex;
 }
+
+/*--------------------------------------------------------------
+# Cart
+--------------------------------------------------------------*/
+.cart .card {
+  background-color: #f9f9f9;
+  border: var(--primary-color) 1px solid;
+}
+.cart .img-content {
+  position: relative;
+  z-index: 2;
+  border-right: var(--primary-color) 1px solid;
+}
+
+.cart .img-content i {
+  color: var(--secondary-color);
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  z-index: 1;
+}
+.cart .text-contet {
+  padding: 20px;
+}
+.cart .text-contet h4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cart .text-contet p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.cart .text-contet .buttonChange {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.cart .text-contet .buttonChange button {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+.cart .text-contet .buttonChange button i {
+  color: var(--secondary-color);
+}
+.cart .text-contet .cross {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.cart .form-section {
+  background-color: #f9f9f9;
+  border: var(--primary-color) solid 1px;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+.cart .form-section button {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+.cart .form-section button:hover {
+  background-color: var(--secondary-color-less);
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
