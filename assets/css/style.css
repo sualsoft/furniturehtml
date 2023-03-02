@@ -1025,10 +1025,9 @@ section {
 
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: rgba(0, 0, 0, 0.473);
+  background-color: transparent;
   border-radius: 50%;
   padding: 5px;
-  color: white;
   text-shadow: none;
   height: 30px;
   width: 30px;
@@ -1040,9 +1039,11 @@ section {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   padding: 10px;
+  fill: #ba9739;
 }
 
 .thumbnail {
@@ -1127,7 +1128,7 @@ section {
   box-sizing: border-box;
 }
 .btn-buy {
-  margin: 0px 18px;
+  margin: 0px 24px;
   margin-bottom: 15px;
   color: #fff;
   background-color: var(--secondary-color);
