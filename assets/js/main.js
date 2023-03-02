@@ -29,6 +29,10 @@
       type: "bullets",
       clickable: true,
     },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
     breakpoints: {
       320: {
         slidesPerView: 1,
@@ -52,6 +56,10 @@
       disableOnInteraction: false,
     },
     slidesPerView: "auto",
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
     pagination: {
       el: ".swiper-pagination",
       type: "bullets",
