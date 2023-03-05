@@ -2102,6 +2102,36 @@ input[type="password"] {
 .text-area .next-btn .active {
   border-bottom: var(--primary-color) 3px solid;
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.why-us {
+  background-image: url(/assets/img/why-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.why-us h3,
+.why-us p,
+.why-us a {
+  color: #fff;
+}
+
+.why-us a {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 12px;
+  font-weight: 500;
+  border-bottom: 1px solid #fff;
+  transition: all 0.3s ease;
+}
+.why-us a:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
