@@ -190,9 +190,7 @@ h6 {
   border: var(--primary-color) 1px solid;
   border-radius: 8px;
 }
-.navbar .dropdown ul li {
-  width: 1080px;
-}
+
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 15px;
