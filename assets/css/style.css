@@ -176,33 +176,54 @@ h6 {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: auto;
+  right: auto;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;
-  z-index: 99;
+  z-index: 999;
   opacity: 0;
   visibility: hidden;
-  background: var(--secondary-color);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+  border: var(--primary-color) 1px solid;
+  border-radius: 8px;
 }
 .navbar .dropdown ul li {
-  min-width: 200px;
+  width: 1080px;
 }
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 15px;
   text-transform: none;
-  font-weight: 400;
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000;
 }
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
+.navbar .dropdown ul p span {
+  color: #000;
+  padding-bottom: 8px;
+  border-bottom: var(--secondary-color) 1px solid;
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+.navbar .dropdown ul li .green-btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 14px;
+}
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #fff;
+  color: var(--primary-color);
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
