@@ -2301,3 +2301,12 @@ input[type="password"] {
 #footer .credits a:hover {
   color: white;
 }
+
+/* new changes 4/7/2023 */
+.thumbnailClass {
+  display: flex;
+  flex-direction: row;
+}
+.thumbnailClass img {
+  height: 50px;
+}
