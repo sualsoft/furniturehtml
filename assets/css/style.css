@@ -2307,6 +2307,14 @@ input[type="password"] {
   display: flex;
   flex-direction: row;
 }
-.thumbnailClass img {
-  height: 50px;
+.thumbnail img {
+  width: 100%;
+}
+.product-slider .swiper-slide {
+  justify-content: center;
+  align-items: flex-start;
+}
+.product-slider {
+  height: auto !important;
+  box-shadow: none !important;
 }
